@@ -5,8 +5,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./styles/style.min.css">
     <meta name="description" content="Desenvolvedor Front-End & UX/UI Designer Localizado no Rio de Janeiro">
+    <link href="/your-path-to-fontawesome/css/all.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/d34266d16d.js" crossorigin="anonymous"></script>
     <title>Projeto Lobo</title>
 </head>
 
@@ -26,6 +28,7 @@
         </nav>
     </header>
     <main class="introducao">
+
         <img src="./img/Group 5.jpg" alt="Eu" width="360" height="520">
         <div>
             <h1>Desenvolvedor <br> Front-End & <br> UX/UI Designer</h1>
@@ -148,14 +151,27 @@
             <p class="footer-texto">Estou disponível para novos projetos no momento. Entre em contato comigo e marcamos uma conversa👋 </p>
 
             <ul class="footer-contato">
-                <li>fescarvalho@gmail.com</li>
-                <li>+55 22 99999-9999</li>
-                <li><a href="#">INSTAGRAM</a></li>
+                <div>
+
+                    <div class="social-media">
+                        <!-- share -->
+                        <ul class="footer-media">
+                            <li><a href="https://www.instagram.com/fescarv" target="_blank"><i class="fa fa-instagram"></i></a></li>
+                            <li><a href="https://github.com/fescarvalho" target="_blank"><i class="fa fa-github"></i></a></li>
+                            <li><a href="https://www.linkedin.com/in/fernando-carvalho-08427a193" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+                            <li><a href="https://api.whatsapp.com/send?phone=5522988255351&text=Ola%20Fernando%2C%20tudo%20bem%3F%3F" target="_blank"><i class="fa fa-whatsapp"></i></a></li>
+                        </ul>
+                        <div class="toogle"></div>
+                    </div>
             </ul>
-            <p class="footer-cop">Fernano. Alguns direitos reservados</p>
         </div>
 
+        <div class="footer-rodape">
+            <p>Todos os direitos reservados</p>
+        </div>
     </footer>
+
+    <script src="./scripts/share.js"></script>
 </body>
 
 </html>

@@ -20,6 +20,7 @@
   height: 100px;
   background: url("../img/detahe.svg") no-repeat center center;
   position: absolute;
+  z-index: 99;
   bottom: -50px;
   left: 20px;
 }
@@ -50,11 +51,17 @@
 
 .faculdade {
   flex: 1;
-  background: rgba(5, 5, 5, 0.555);
+  background: rgba(5, 5, 5, 0.473);
   padding: 20px;
   border-radius: 4px;
   display: flex;
   flex-direction: column;
+  transition-property: background;
+  transition-duration: 0.4s;
+}
+
+.faculdade:hover {
+  background: rgba(5, 5, 5);
 }
 
 .faculdade-tipo {
@@ -72,7 +79,7 @@
   flex: 1;
 }
 
-.faculdade-curso::before {
+.faculdade-curso:before {
   content: "";
   display: block;
   width: 4px;
